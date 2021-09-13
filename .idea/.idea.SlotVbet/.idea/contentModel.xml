@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\pain2\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\pain2\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\pain2\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_SlotVbet.1014586269.00" t="ExcludeRecursive" />
+    <e p="C:\Users\pain2\Desktop\SlotVbet" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ModernSuitsSlotAsset" t="Include">
+          <e p="FortuneWheelMiniGame" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="SoftShaderFont.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="ArrowBeviour.cs" t="Include" />
+              <e p="FortuneWheelInstantiator.cs" t="Include" />
+              <e p="LampsController.cs" t="Include" />
+              <e p="LampsPositions.cs" t="Include" />
+              <e p="PointerBehavior.cs" t="Include" />
+              <e p="Sector.cs" t="Include" />
+              <e p="SetTextPosition.cs" t="Include" />
+              <e p="SpinButton.cs" t="Include" />
+              <e p="WheelController.cs" t="Include" />
+              <e p="WheelEvent.cs" t="Include" />
+              <e p="WheelStarter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Materials_Shaders" t="Include">
+            <e p="Custom-UI-Default.shader" t="Include" />
+            <e p="EasyText" t="Include">
+              <e p="SoftShaderFont.shader" t="Include" />
+              <e p="SoftShaderFontWithShadows.shader" t="Include" />
+              <e p="SoftShaderSpriteText.shader" t="Include" />
+            </e>
+            <e p="Sprites-Fade.shader" t="Include" />
+            <e p="Stencil" t="Include">
+              <e p="SpriteStencil.shader" t="Include" />
+              <e p="TransparentMask.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Prefab" t="Include">
+            <e p="Fountain" t="Include">
+              <e p="CoinProcAnim.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="DataWindow.cs" t="Include" />
+              <e p="EditorUtils.cs" t="Include" />
+              <e p="GuiFaderEditor.cs" t="Include" />
+              <e p="LineBehaviorEditor.cs" t="Include" />
+              <e p="SlotControllerEditor.cs" t="Include" />
+              <e p="SlotGroupBehaviorEditor.cs" t="Include" />
+              <e p="SlotPlayerEditor.cs" t="Include" />
+            </e>
+            <e p="GUI" t="Include">
+              <e p="BalanceGUIController.cs" t="Include" />
+              <e p="LampsControllerGUI.cs" t="Include" />
+              <e p="LevelGUIController.cs" t="Include" />
+              <e p="LobbyMenuController.cs" t="Include" />
+              <e p="LockButton.cs" t="Include" />
+              <e p="MenuButtonTransition.cs" t="Include" />
+              <e p="PopUps" t="Include">
+                <e p="AboutPopUp.cs" t="Include" />
+                <e p="ChestMiniGame" t="Include">
+                  <e p="ChestBehavior.cs" t="Include" />
+                  <e p="ChestMiniGamePU.cs" t="Include" />
+                </e>
+                <e p="DailyReward" t="Include">
+                  <e p="DailyRewardLine.cs" t="Include" />
+                  <e p="DailyRewardPopUp.cs" t="Include" />
+                </e>
+                <e p="LevelXP_PU.cs" t="Include" />
+                <e p="MainMenuController.cs" t="Include" />
+                <e p="PayTable" t="Include">
+                  <e p="PayLineHelper.cs" t="Include" />
+                  <e p="PayTableController.cs" t="Include" />
+                  <e p="PayTableIcon.cs" t="Include" />
+                </e>
+                <e p="ScreenPU.cs" t="Include" />
+                <e p="SettingsMenuController.cs" t="Include" />
+                <e p="Shop" t="Include">
+                  <e p="DealSalePU.cs" t="Include" />
+                  <e p="ShopThingHelper.cs" t="Include" />
+                  <e p="ShopWindowController.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SlotGuiController.cs" t="Include" />
+              <e p="SlotMenuController.cs" t="Include" />
+              <e p="SpinButtonBehavior.cs" t="Include" />
+            </e>
+            <e p="Hoso" t="Include">
+              <e p="InputPanelController.cs" t="Include" />
+              <e p="LeaderBoardController.cs" t="Include" />
+              <e p="LeaderBoardItem.cs" t="Include" />
+              <e p="LeadsData.cs" t="Include" />
+              <e p="StaticEvents.cs" t="Include" />
+              <e p="UserDataLead.cs" t="Include" />
+            </e>
+            <e p="Lobby" t="Include">
+              <e p="DailyRewardGUIController.cs" t="Include" />
+              <e p="LobbyController.cs" t="Include" />
+            </e>
+            <e p="MKUtils" t="Include">
+              <e p="Ads" t="Include">
+                <e p="AdsControl.cs" t="Include" />
+                <e p="BannerControl.cs" t="Include" />
+                <e p="ShowInterstitialAd.cs" t="Include" />
+                <e p="ShowRewardedAd.cs" t="Include" />
+              </e>
+              <e p="AnimCallBack.cs" t="Include" />
+              <e p="Creator.cs" t="Include" />
+              <e p="Curves" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="SceneCurveEditor.cs" t="Include" />
+                </e>
+                <e p="ProcCurve.cs" t="Include" />
+                <e p="SceneCurve.cs" t="Include" />
+              </e>
+              <e p="DontDestroyObj.cs" t="Include" />
+              <e p="EditorTools" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="InspectorButtonEditor.cs" t="Include" />
+                </e>
+                <e p="Inspector_Button.cs" t="Include" />
+              </e>
+              <e p="GameObjectExtension.cs" t="Include" />
+              <e p="GUI" t="Include">
+                <e p="CanvasSetCam.cs" t="Include" />
+                <e p="GuiController.cs" t="Include" />
+                <e p="GuiFader_v2.cs" t="Include" />
+                <e p="OpenURLButton.cs" t="Include" />
+                <e p="PopUpsController.cs" t="Include" />
+                <e p="RateUsButton.cs" t="Include" />
+                <e p="ShowGuiPopUp.cs" t="Include" />
+                <e p="Slider" t="Include">
+                  <e p="GuiSlider.cs" t="Include" />
+                  <e p="ProgressBarSlider.cs" t="Include" />
+                  <e p="ProgressSlider.cs" t="Include" />
+                  <e p="PSlider.cs" t="Include" />
+                  <e p="SimpleSlider.cs" t="Include" />
+                </e>
+                <e p="SupportButton.cs" t="Include" />
+                <e p="WarningMessController.cs" t="Include" />
+              </e>
+              <e p="MathMk.cs" t="Include" />
+              <e p="PrefabInstantiator.cs" t="Include" />
+              <e p="Purchasing" t="Include">
+                <e p="PurchaseEvents.cs" t="Include" />
+                <e p="Purchaser.cs" t="Include" />
+                <e p="ShopThingData.cs" t="Include" />
+              </e>
+              <e p="SceneButton.cs" t="Include" />
+              <e p="SceneLoader.cs" t="Include" />
+              <e p="SceneScaler" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="SceneScalerEditor.cs" t="Include" />
+                </e>
+                <e p="SceneScaler.cs" t="Include" />
+              </e>
+              <e p="Social" t="Include">
+                <e p="FaceBookGUIController.cs" t="Include" />
+                <e p="FbEvents.cs" t="Include" />
+                <e p="FBholder.cs" t="Include" />
+              </e>
+              <e p="Sound" t="Include">
+                <e p="ButtonClickSound.cs" t="Include" />
+                <e p="GUIMusicSoundButtonBehavior.cs" t="Include" />
+                <e p="PlaySound.cs" t="Include" />
+                <e p="SlotSoundController.cs" t="Include" />
+                <e p="SoundMaster.cs" t="Include" />
+                <e p="StartMusic.cs" t="Include" />
+                <e p="StartSound.cs" t="Include" />
+                <e p="VolumeController.cs" t="Include" />
+              </e>
+              <e p="SpriteText.cs" t="Include" />
+              <e p="Timers" t="Include">
+                <e p="SessionLocalTimer.cs" t="Include" />
+                <e p="Timers.cs" t="Include" />
+              </e>
+              <e p="Touch" t="Include">
+                <e p="TouchManager.cs" t="Include" />
+                <e p="TouchPad.cs" t="Include" />
+              </e>
+              <e p="Tween" t="Include">
+                <e p="SimpleTween.cs" t="Include" />
+                <e p="Tweens.cs" t="Include" />
+                <e p="TweenSeq.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Slot" t="Include">
+              <e p="DailyRewardController.cs" t="Include" />
+              <e p="DailySpinController.cs" t="Include" />
+              <e p="DealSaleController.cs" t="Include" />
+              <e p="DealSaleGUIController.cs" t="Include" />
+              <e p="DotLine.cs" t="Include" />
+              <e p="HoldFeature.cs" t="Include" />
+              <e p="JackPotController.cs" t="Include" />
+              <e p="JackPotWin.cs" t="Include" />
+              <e p="LineBehavior.cs" t="Include" />
+              <e p="LineButtonBehavior.cs" t="Include" />
+              <e p="LineCreator" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="LineCreatorEditor.cs" t="Include" />
+                </e>
+                <e p="LineCreator.cs" t="Include" />
+              </e>
+              <e p="LinesController.cs" t="Include" />
+              <e p="RayCaster.cs" t="Include" />
+              <e p="SlotController.cs" t="Include" />
+              <e p="SlotControls.cs" t="Include" />
+              <e p="SlotEvents.cs" t="Include" />
+              <e p="SlotGroupBehavior.cs" t="Include" />
+              <e p="SlotIcon.cs" t="Include" />
+              <e p="SlotLineRender" t="Include">
+                <e p="DotLineRenderer.cs" t="Include" />
+                <e p="GradientLineRenderer.cs" t="Include" />
+                <e p="SlotLineRenderer.cs" t="Include" />
+                <e p="SolidLineRenderer.cs" t="Include" />
+              </e>
+              <e p="SlotPlayer.cs" t="Include" />
+              <e p="SlotSymbol.cs" t="Include" />
+              <e p="SpriteDeformer" t="Include">
+                <e p="IconSpriteDeformerMesh.cs" t="Include" />
+              </e>
+              <e p="WinController.cs" t="Include" />
+              <e p="WinSymb" t="Include">
+                <e p="WinJumpBehavior.cs" t="Include" />
+                <e p="WinSpriteBlinkBehavior.cs" t="Include" />
+                <e p="WinSpriteScaleBehavior.cs" t="Include" />
+                <e p="WinSpriteSeqAnimBehavior.cs" t="Include" />
+                <e p="WinSymbolBehavior.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SlotVbet.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

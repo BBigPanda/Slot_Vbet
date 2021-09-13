@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace Mkey
 {
@@ -248,7 +249,8 @@ namespace Mkey
             SpinPressEvent?.Invoke();
             RunSlots();
         }
-   
+
+        private bool isShowLowBalanceInfo = false; 
         private void RunSlots()
         {
             if (slotsRunned) return;
@@ -280,15 +282,25 @@ namespace Mkey
                 isFreeSpin = false;
             }
 
-            if (!controls.ApplyBet())
+            if (!controls.ApplyBet() && !isShowLowBalanceInfo)
             {
-                MGUI.ShowMessage(null, "You have no money.", 1.5f, null);
+                MGUI.ShowMessage(null, "Your turn is over", 2.5f, null);
                 controls.ResetAutoSpinsMode();
+                isShowLowBalanceInfo = true;
+                StartCoroutine(WaitAndRestartGame());
                 return;
             }
 
             StartCoroutine(RunSlotsAsync());
         }
+
+        private IEnumerator WaitAndRestartGame() {
+            yield return new WaitForSeconds(2);
+            isShowLowBalanceInfo = false;
+            SceneManager.LoadScene(0);
+          
+        }
+        
        
         private IEnumerator RunSlotsAsync()
         {
