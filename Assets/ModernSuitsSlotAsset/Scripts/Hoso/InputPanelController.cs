@@ -22,6 +22,12 @@ public class InputPanelController : MonoBehaviour {
 		_doneButton.onClick.AddListener(Done);
 		StaticEvents.SetSceneInputState(false);
 		_canUseReturnButton = true;
+		StartCoroutine(SelecField());
+	}
+
+	IEnumerator SelecField() {
+		yield return new WaitForSeconds(0.2f);
+		_userName.Select();
 	}
 
 	private void InputValueChanged(string name) {
